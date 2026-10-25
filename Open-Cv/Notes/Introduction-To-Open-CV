@@ -30,3 +30,21 @@ Beyond the standard core modules, OpenCV includes a highly specialized layer of 
 • superres (Super Resolution): Advanced algorithms used to upscale lower-resolution images and video frames to higher resolutions by leveraging spatial and temporal data. Used in modern security forensics and media restoration.
 • videostab (Video Stabilization): Tools designed to eliminate camera shake and jitter from raw video recordings by calculating camera path metrics and warping frames to appear smooth. Used in dashcam software, drone tracking, and action cameras.
 • viz (3D Visualizer): A 3D visualization window framework based on VTK (Visualization Toolkit). It provides an easy way to render 3D points, point clouds, coordinate systems, meshes, and shapes. Used extensively to visualize output from LiDAR sensors or 3D camera reconstructions.
+
+This video serves as an introductory guide for professionals and aspirants in the field of **Computer Vision**, explaining the core tasks and libraries associated with **OpenCV** and Python. The instructor emphasizes the importance of understanding the terminology used in industry projects to succeed in job interviews and professional environments.
+
+
+Key Computer Vision Applications Covered:
+
+*   **Feature Extraction & Object Detection:** Identifying and matching distinct points in images to detect specific objects. 
+*   **Image Stitching:** Combining multiple images into a single panoramic view using feature matching.
+*   **Egomotion Estimation:** Determining how a camera is moving while capturing video frames.
+*   **Medical Image Analysis:** Using specialized algorithms for tasks like analyzing CT scans.
+*   **Human-Computer Interaction (HCI):** Enabling systems to respond to human actions, such as eye movements or brain-computer interfaces.
+*   **Depth Sensing & Stereo Vision:** Calculating the distance or depth of objects, often using two perspectives to create 3D maps.
+*   **Image Segmentation:** Classifying images at the pixel level to isolate specific objects from the background.
+*   **Motion Tracking:** Detecting and tracking the movement of objects across video frames.
+Essential Python Libraries:
+NumPy: Highly efficient for handling multi-dimensional arrays and mathematical operations, often running significantly faster than standard Python lists .
+Scikit-Image: Provides specialized image processing functions that complement OpenCV.
+Pillow (PIL): A standard library for basic image manipulation tasks, such as opening, closing, and resizing image files.
