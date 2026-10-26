@@ -1,0 +1,50 @@
+## I. Introduction to NumPy (0:00-1:50)
+
+*   **NumPy**: An essential library for matrix algebra in Python, used extensively in Computer Vision.
+*   **Initialization**: The module is imported using `import numpy as np`.
+*   **Version Check**: Best practice is to verify the installation version using `np.__version__`.
+
+## II. Data Types in NumPy (1:51-2:22)
+
+*   **Common Types**: Includes integers (`int`), floating-point numbers (`float`), strings, and booleans (`bool`).
+*   **Boolean Arrays**: Represent `True` (1) and `False` (0), commonly used for creating masks.
+
+## III. N-Dimensional Arrays (2:23-6:55)
+
+*   **Creating Arrays**: The `np.array()` function converts input lists into NumPy arrays.
+*   **1D Arrays (Vectors)**:
+    *   **Row Vector**: Horizontal structure (e.g., `[1, 2, 3]`).
+    *   **Column Vector**: Vertical structure (e.g., `[[1], [2], [3]]`).
+*   **2D Arrays (Matrices)**: Represents rows and columns. Defined using nested brackets.
+*   **3D Arrays**: An extension of matrices involving layers, fundamental for representing image data (channels).
+
+## IV. Array Initialization Functions (6:56-10:19)
+
+*   **`np.zeros()`**: Creates an array filled with zeros.
+*   **`np.ones()`**: Creates an array filled with ones.
+*   **`np.full()`**: Initializes an array with a specific, constant value.
+*   **`np.eye()`**: Generates an identity matrix.
+
+## V. Sequence and Random Functions (10:20-14:47)
+
+*   **`np.arange()`**: Creates values within a specific range with a defined step size; the end value is excluded.
+*   **`np.linspace()`**: Creates a specific number of values within a range, where both endpoints are included.
+*   **`np.random.rand()`**: Generates random float values between 0 and 1.
+*   **`np.random.randint()`**: Generates random integers within a defined range.
+
+## VI. Array Attributes and Manipulation (14:48-18:04)
+
+*   **`shape`**: Returns the dimensions (rows, columns) of the array.
+*   **`size`**: Returns the total number of elements in the array.
+*   **`dtype`**: Identifies the data type of the elements.
+*   **`astype()`**: Used to change or convert the array's data type (e.g., from `int` to `float`).
+
+## VII. Algebraic Operations (18:05-20:44)
+
+*   **Scalar Operations**: Performing math operations (addition, multiplication) on an array applies the operation to every element.
+*   **Element-wise Operations**: Adding or multiplying two arrays directly performs operations on corresponding elements.
+*   **Statistical Functions**: Use `.min()` and `.max()` to find the minimum and maximum values in an array.
+
+## VIII. Future Topics (20:45-21:26)
+
+*   **Preview**: Upcoming sessions will cover advanced slicing, indexing, and image manipulation techniques.
